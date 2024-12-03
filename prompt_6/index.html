@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="feedback-form">
+        <h1>Feedback Form</h1>
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required pattern="[A-Za-z ]{8,}">
+        <span class="error-message">Please enter a valid name (at least 8 characters).</span>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error-message">Please enter a valid email address.</span>
+
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+        <span class="error-message">Feedback cannot be empty.</span>
+
+        <label for="rating">Rating</label>
+        <select id="rating" name="rating" required>
+            <option value="">Select a rating</option>
+            <option value="1">Poor</option>
+            <option value="2">Fair</option>
+            <option value="3">Good</option>
+            <option value="4">Very Good</option>
+            <option value="5">Excellent</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

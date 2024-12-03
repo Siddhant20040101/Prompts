@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(242, 238, 238);
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://wallpapercave.com/wp/tk2j9LI.jpg); */
+    background: linear-gradient(to right,rgb(19, 49, 59),rgb(40, 102, 123),rgb(19, 49, 59))
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.title{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(23, 18, 18);
+    font-weight: 700;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+nav>a:hover{
+    color: white;
+    transition: 0.5s;
+}
+i{
+    font-size:  30px;
+    color: rgb(0, 0, 0);
+}
+i:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+nav>a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.info{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info>h2{
+    font-size: 80px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: -3px;
+}
+
+.info>p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgb(212, 212, 212);
+    letter-spacing: -1px;
+}
+.button{
+    letter-spacing: -1PX;
+    height: 45px;
+    width: 200px;
+    background: rgba(225, 224, 224, 0.715);
+    color: black;
+    border:none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size:21px;
+    padding-left: 7px;
+}
+
+.button:hover{
+    background: #000;
+    color: white;
+    transition: 0.5s;
+}
+.button>i:hover{
+    color: white;
+    
+}
+
+.product_wrapper{
+    height:50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.products{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    box-shadow: 3px 3px 10px black;
+}
+
+.products:hover{
+    transition: 0.5s;
+}
+
+.products>h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background: rgba(212, 212, 212,0.8);
+    width: 200px;
+    border-radius: 20px;
+    color: rgb(23, 23, 23);
+}
+.product1{
+    margin-bottom: 80px;
+    transform: rotate(-10deg);
+    background-image: url(https://th.bing.com/th/id/OIP.3YnoB1l63IRyE1cFu6RJ3QHaJ4?w=1080&h=1440&rs=1&pid=ImgDetMain);
+    
+}
+.product1:hover{
+    transform: scale(1.07) rotate(-10deg);
+}
+.product2{
+    background-image: url(https://images.pexels.com/photos/1620812/pexels-photo-1620812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: bottom;
+}
+.product2:hover{
+    transform: scale(1.07);
+}
+.product3{
+    margin-bottom: 80px;
+    transform: rotate(10deg);
+    background-image: url(https://th.bing.com/th/id/OIP.o8NY4VGwF-Otd6f3T0KNNgAAAA?rs=1&pid=ImgDetMain);
+}
+.product3:hover{
+    transform: scale(1.07) rotate(10deg);
+}

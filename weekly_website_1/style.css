@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize  ;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    background: #ff0000;
+    color: whitesmoke;
+    
+}
+header span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.title{
+    font-family: "Parkinsans", serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 29px;
+    color: whitesmoke;
+}
+
+
+
+
+main{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    /* background: #da7c7c; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0px ;
+    
+}
+
+main h1{
+    font-size: 40px;
+    margin-top: 1.5%;
+    font-family: "Fuzzy Bubbles", serif;
+}
+
+main .filter{
+    /* background: #d8232a; */
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: solid rgba(0, 0, 0, 0.244) 1px;
+}
+
+main .filter input,select{
+    width: 13.5%;
+    margin-right: 5%;
+    border-radius: 100px;
+    margin-left: 1%;
+    border: solid 1px rgba(123, 122, 122, 0.178);
+    height: 40%;
+    text-align: center;
+    color: rgb(123, 122, 122);
+}
+
+
+
+i{
+    color: #d8232a;
+    font-size: 20px;
+}
+
+.filter button{
+    height: 55%;
+    width: 11%;
+    border-radius: 100px;
+    font-size: 20px;
+    color: whitesmoke;
+    background: #d8232a;
+    border: none;
+}
+
+button:hover{
+    background: rgb(186, 47, 47);
+}
+
+.filter button i{
+    color: whitesmoke;
+}
+
+
+
+
+.properties , .construction ,.offices , .homes ,.services{
+    width: 100%;
+    height: max-content;
+    /* display: flex; */
+    /* background: #6f5151; */
+    padding-left: 155px;
+    padding-top: 30px;
+
+}
+.properties >h2, .offices> h2, .homes >h2,.services >h2{
+    width: 1200px;
+    /* background: #000; */
+}
+.img{
+    overflow: hidden;
+    /* background: #000; */
+    height: 200px;
+}
+.img img {
+    width: 290px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    transition: 0.5s;
+    
+}
+
+.img img:hover{
+    transform: scale(1.1);
+    
+}
+
+.list{
+    display: inline-block;
+    margin-right: 7px;
+    /* background: #6f2d2d; */
+    border: solid 1px rgb(188, 184, 184);
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.details{
+    padding-left: 20px;
+}
+
+.details button{
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    background: #d8232a;
+    color: whitesmoke;
+}
+
+
+.construction{
+    padding-right: 155px;
+    display: flex;
+    justify-content: space-between;
+    /* background: #965454; */
+}
+
+.info{
+    width: 35%;
+     
+}
+.info h2{
+    margin-bottom: 20px;   
+}
+.info p{
+    margin-bottom: 20px;  
+}
+.info button{
+    width: 200px;
+    height: 45px;
+    margin-top: 10px; 
+    border-radius: 100px;
+    font-size: 20px;
+    border: none;
+    background: #d8232a;
+    color: whitesmoke;
+}
+
+.infoimg img {
+    height: 370px;
+    border-radius: 10px;
+}
+
+
+.popular-cities{
+    padding-left: 150px;
+    padding-right: 155px;
+}
+
+.popular-cities >h2 {
+    margin-bottom: 30px; 
+    padding-top: 30px;
+}
+
+.cityimg img{
+    height: 90px;
+    width: 95px;  
+    margin-right: 30px;  
+    transition: 0.3s;
+}
+
+.cities{
+    display: flex ;
+    align-items: center; 
+    /* background: #c85d5d; */
+    width: 300px;   
+    margin-top: 15px;
+    
+}
+.cityimg{
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;   
+    height: 90px;
+    width: 95px; 
+}
+.cityimg :hover{
+    transform: scale(1.1);
+}
+.cityinfo{
+    display: inline-block;
+    height: 60px;
+    /* background: #db7f7f; */
+    margin-left: 20px;
+    
+}
+.cityinfo h2{
+    margin-bottom: 10px;
+}
+.cityinfo span{
+    margin-bottom: 5px;
+}
+.services{
+    margin-top: 33px;
+    padding-bottom: 40px;
+}
+
+.cities-wrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.see-all{
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 100px;
+    border: none;
+    background: #d8232a;
+    color: whitesmoke;
+    margin-left: 30px;
+}
+
+
+
+footer{
+    height: 35%;
+    padding: 45px 150px ;
+    background: #f5f5f5;
+}
+.footer-about p{
+    margin-top: 30px;
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.footer-nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.footer-nav span{
+    font-size: 30px;
+}
+
+.populars{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.populars a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    text-decoration: underline #f5f5f5;
+}
+
+.footer-nav a:hover{
+    text-decoration: underline black;
+}
+.populars a:hover{
+    text-decoration: underline black;
+}
