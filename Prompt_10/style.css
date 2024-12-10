@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#a8a8a8,#a8a8a8,#424242);
+    padding-left: 9%;
+    /* position: relative; */
+    padding-top: 1px;
+}
+
+.page1 h4{
+    position: absolute;
+    transform: rotate(90deg);
+    left: 26.5%;
+    top: 46%;
+    color: gray;
+    z-index: 999;
+    font-size: 35px;
+}
+.page1 img{
+    position: absolute;
+    top: 15%; 
+    left: 40%;
+    height: 70%;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+
+
+
+.page1 h3{
+    font-size: 40px;
+    line-height: 1;
+    margin-left: 8px;
+    margin-top: 10%;
+    font-weight: 400;
+}
+
+.page1 h3 span{
+    font-size: 60px;
+    /* padding-top: 10px; */
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.page1 h2{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.page1 h2 span{
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 400;
+    /* color: rgb(255, 255, 255); */
+}
+
+.page1 p{
+    color:  #2e2e2e;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.page1 button{
+    width: 100px;
+    height: 30px;
+    color: rgb(200, 200, 200);
+    font-weight: 500;
+    background: transparent;
+    border: solid 1px rgb(220, 220, 220);
+    margin-left: 8px;
+}
+
+.page1 button:hover{
+    color: rgb(195, 195, 195);
+    background: gray;
+}
+
+.social-media{
+    width: 22%;
+    height: 8%;
+    /* background: hsl(0, 88%, 73%); */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media i{
+    font-size: 50px;
+    /* background: rgba(150, 149, 149, 0.467); */
+    color: #414141;
+}
+
+.social-media i:hover{
+    /* box-shadow: 2px 2px 2px black; */
+    color: black;
+}
+
+
+.page2{
+    background: radial-gradient(#a8a8a8,#a8a8a8,#424242);
+    width: 100%;
+    height: 100%;
+    /* padding: 9%; */
+    /* padding-top: 0; */
+    padding-top: 1px;
+    padding-left: 20px;
+}
+
+.page2 h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.img-wrapper{
+    /* width: 100%; */
+    /* gap: 20px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 10%;
+    gap: 10px;
+
+}
+
+.img1{
+    height: 250px;
+    background: url(https://th.bing.com/th/id/R.f8f2e2403230d48be4481cf5bafb9b33?rik=3jJhfB6fNrfLPA&riu=http%3a%2f%2fwebneel.com%2fdaily%2fsites%2fdefault%2ffiles%2fimages%2fdaily%2f10-2013%2f16-nature-photography-forest-by-larsvandegoor.jpg&ehk=xhkSxvQCiyu8n5jSDC%2b41L2LHfNdk0sMsprTeox1nks%3d&risl=&pid=ImgRaw&r=0);
+    grid-row: span 2;
+    grid-column: span 2;
+    background-size: cover;
+    background-position: bottom;
+}
+.img2{
+    background: url(https://th.bing.com/th/id/R.4624050b714ba180ea207e66630a2253?rik=n5qadbQMSFijBw&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-2%2fPhotography-HD-Photos-05025.jpg&ehk=fqJtNuVWPMCsjmC9EAD5M89a3osaaiVBSt5xx0Xb8js%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    /* grid-column: span 2; */
+}
+.img3{
+    background: url(https://th.bing.com/th/id/OIP.B0oR6O2WNPIHIOq3cGpprAHaEl?pid=ImgDet&w=474&h=293&rs=1);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+    grid-column: span 1;
+    /* columns: span 1; */
+    /* grid-row: inherit; */
+}
+
+
+
+.img5{
+    background: url(https://i1.sndcdn.com/artworks-Rqz074prekrOU8Wz-IZgAEg-t500x500.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    grid-column: span 1;
+}
+.img6{
+    background: url(https://th.bing.com/th/id/OIP._FD450W-Zz073F0AHFHy7QHaGZ?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+    grid-row: inherit;
+}
+
+.img7{
+    background: url(https://hdrphotos.com/wp-content/uploads/2021/03/Spirit-Island-4k-RGB-768x432.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+}
