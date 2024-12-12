@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(office_design_desks_80537_3840x2400.jpg);
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-container {
+    text-align: center;
+    width: 60%;
+    height: 45%;
+    background: rgba(0, 0, 0, 0.649);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subscription-container h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.subscription-container p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: rgb(201, 201, 201);
+}
+
+
+input[type="email"] {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1rem;
+    width: 60%;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="email"]:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    margin-top: 2%;
+    border-radius: 30px;
+    background-color: #4c4646;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #353434;
+    transform: scale(1.1);
+}
