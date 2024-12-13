@@ -18,10 +18,11 @@ body {
 
 .subscription-container {
     text-align: center;
-    width: 60%;
+    width: 50%;
     height: 45%;
     background: rgba(0, 0, 0, 0.649);
     padding: 2rem;
+    padding-top: 3rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
