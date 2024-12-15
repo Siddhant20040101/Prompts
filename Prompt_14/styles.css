@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* color: #333; */
+}
+
+
+section.hero {
+    background: url(bg.jpg);
+    background-size: cover;
+    /* background-position:; */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.left{
+    padding-top: 13%;
+    padding-left: 7%;
+    position: absolute ;
+    z-index: 99;
+}
+
+.overlay{
+    width: 70vw;
+    height: 180vh;
+    background: #2426646b;
+    position: absolute;
+    transform: rotate(30deg);
+    top: -50%;
+    left: -22%;
+
+}
+
+section.hero .left h2 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+section.hero .left p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+section.hero .left a {
+    background: #0047AB;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+
+.form-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 9%;
+}
+
+
+.form-section h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.form-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section form label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-section form input,
+.form-section form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-section form button {
+    background: #0047AB;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
